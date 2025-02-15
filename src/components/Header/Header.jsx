@@ -1,6 +1,6 @@
 import React, { useContext ,useState} from "react";
 import styles from "./header.module.css";
-import sharkUpLogo from "../../data/SharkUpLogoTwo.png";
+import startsyLogo from "../../data/StartsyLogo.png";
 import { Link, useNavigate } from "react-router-dom";
 import authContext from "../../utils/auth-hook";
 import firebase from "firebase";
@@ -28,8 +28,8 @@ const Header = () => {
         <div className={`${styles.imageWrapper}`}>
           <img
             className={`${styles.cover}`}
-            src={sharkUpLogo}
-            alt="sharkUp Logo"
+            src={startsyLogo}
+            alt="startsy Logo"
           />
         </div>
         <div className={`${styles.headerContentWrapper}`}>
@@ -49,6 +49,9 @@ const Header = () => {
             </Link>
             <Link to="/startup">
               <li>Start Ups</li>
+            </Link>
+            <Link to="/home">
+              <li>Startup Location Finder</li>
             </Link>
           </ul>
         </div>

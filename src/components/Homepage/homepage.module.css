@@ -44,3 +44,42 @@
     font-weight: 600;
     color:rgb(89,41,80);
 }
+
+.startupLogo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .logoImage {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  .successStories {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 50px;
+  }
+  
+  h2{
+    font: bold ;
+  }
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 20px;
+    color: #333;
+    z-index: 10;
+  }
+  
+  .slick-dots li button:before {
+    color: #333;
+  }
+  

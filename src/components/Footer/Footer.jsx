@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./footer.module.css";
-import sharkUpLogo from "../../data/SharkUpLogoTwo.png";
+import startsyLogo from "../../data/StartsyLogo.png";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 
 const Footer = () => {
@@ -11,8 +11,8 @@ const Footer = () => {
           <div className={`${styles.imageWrapper}`}>
             <img
               className={`${styles.cover}`}
-              src={sharkUpLogo}
-              alt="sharkUp Logo"
+              src={startsyLogo}
+              alt="startsy Logo"
             />
           </div>
           <div className={`${styles.companyContact}`}>
