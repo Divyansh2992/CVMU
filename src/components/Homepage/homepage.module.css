@@ -1,0 +1,85 @@
+
+
+.imageWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: contain;
+    
+}
+
+.homepageWrapperOne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.homepageImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.homepageDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%; 
+    padding: 10px;
+}
+
+.homepageDetails p{
+    font-size: 16px;
+    font-weight: 600;
+    color:rgb(89,41,80);
+}
+
+.startupLogo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .logoImage {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  .successStories {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 50px;
+  }
+  
+  h2{
+    font: bold ;
+  }
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 20px;
+    color: #333;
+    z-index: 10;
+  }
+  
+  .slick-dots li button:before {
+    color: #333;
+  }
+  
